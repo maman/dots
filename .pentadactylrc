@@ -1,0 +1,18 @@
+"hg5827 (created: 2011/02/15 00:00:06)
+
+loadplugins '\.(js|penta)$'
+group user
+highlight CompGroup background: #050505; color: #888;
+highlight CompItem[selected] background: #ff8939; color: #151515;
+highlight CompTitle background: #151515; color: #bdf271;
+highlight CompTitleSep display: none;
+highlight MoreMsg color: #050505; background: #222;
+highlight NonText background: #050505; color: #888;
+highlight Normal background: #050505; color: #888;
+highlight Preview color: #444;
+highlight StatusLineNormal background: #151515;
+highlight Title background: #050505; color: #bdf271;
+
+" vim: set ft=pentadactyl:
+
+

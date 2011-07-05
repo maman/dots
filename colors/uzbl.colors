@@ -1,0 +1,36 @@
+! === Appearance =============================================================
+
+!black
+*color0: #353535
+*color8: #666666
+
+!red
+*color1: #D81860
+*color9: #F00060
+
+!green
+*color2: #B7CE42
+*color10: #BDE077
+
+!brown/yellow
+*color3: #FEA63C
+*color11: #FFE863
+
+!blue
+*color4: #6F99B4
+*color12: #7C96B0
+
+!magenta
+*color5: #8B7B8B
+*color13: #D8BFD8
+
+!cyan
+*color6: #A7A15E
+*color14: #F0E68C
+
+!white
+*color7: #DDDDDD
+*color15: #FFFFFF
+
+*background: #151515
+*foreground: #DDDDDD
