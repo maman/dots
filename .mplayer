@@ -1,0 +1,48 @@
+# Write your default config options here!
+
+#=-=-=-=-=-
+# GENERAL
+#=-=-=-=-=-
+
+#really-quiet=1 # Little Console output
+
+#=-=-=-=-=-
+# VIDEO
+#=-=-=-=-=-
+
+vo=xv # Video out
+zoom=1 # Allow software scaling
+double=yes # Double buffering
+
+framedrop=0
+hardframedrop=0
+
+#=-=-=-=-=-
+# SUBTITLES
+#=-=-=-=-=-
+
+font=/home/fake/.fonts/segoeui.ttf
+subfont-encoding=unicode # set unicode...
+unicode=yes # ...again...
+utf8=yes # ...and again
+
+spuaa=4 # AA
+ffactor=5 # black outline
+sub-bg-alpha=0 # background color ala closed captions
+sub-bg-color=0 # black to white
+subfont-text-scale=3.7 # truetype font scaling
+subfont-blur=1 # Slight blur
+
+#This sets the postprocessing into overdrive using all possible spare cpu cycles to make the movie look better
+#autoq=100
+#vf=pp=de,hqdn3d
+
+subpos=95 # By default subtitles are too low
+subalign=2
+
+slang=en,eng # Languages
+
+sub-fuzziness=1 # Load all subs containing movie name
+
+cache=8192 # Set mplayer cache for smoother HD playback
+cache-min=20 # Set minimum cache size
