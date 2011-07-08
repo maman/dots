@@ -5,12 +5,12 @@
 # You can put symlinks in here, if you like. Make sure that
 # the user that mpd runs as (see the 'user' config parameter)
 # can read the files in this directory.
-music_directory		"/home/fake/Music"
-playlist_directory	"/home/fake/.mpd/playlists"
-db_file			"/home/fake/.mpd/mpd.db"
-log_file		"/home/fake/.mpd/mpd.log"
+music_directory		"/home/kitty/Music"
+playlist_directory	"/home/kitty/.mpd/playlists"
+db_file			"/home/kitty/.mpd/mpd.db"
+log_file		"/home/kitty/.mpd/mpd.log"
 #error_file		"/home/fake/.mpd/errors.log"
-pid_file		"/home/fake/.mpd/pid"
+pid_file		"/home/kitty/.mpd/pid"
 ################################################################
 
 
@@ -20,7 +20,7 @@ pid_file		"/home/fake/.mpd/pid"
 # current song, playing/paused, etc.) at exit.  This will be
 # used to restore the session the next time it is run.
 #
-state_file		"/home/fake/.mpd/state"
+state_file		"/home/kitty/.mpd/state"
 #
 ################################################################
 
@@ -32,7 +32,7 @@ state_file		"/home/fake/.mpd/state"
 # started by.  If left unspecified, MPD will not drop root
 # privileges at all (not recommended).
 #
-user                            "fake"
+user                            "kitty"
 #
 # The address and port to listen on.
 #
@@ -85,14 +85,14 @@ audio_output {
         type                    "alsa"
         name                    "Alsa"
         device                  "default"
-        mixer_device			"default"
+        mixer_device            "default"
         format                  "44100:16:1"
-        mixer_control                 "Master"
+        mixer_control           "Master"
 }
 audio_output {
     	type                    "fifo"
     	name                    "visualizer"
-    	path                    "/home/fake/.mpd/mpd.fifo"
+    	path                    "/home/kitty/.mpd/mpd.fifo"
 }
 #
 # An example of an OSS output:
