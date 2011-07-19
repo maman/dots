@@ -1,17 +1,17 @@
 ! ----------------------------------------------------------------------------
 ! file:     ~/.Xdefaults
 ! author:   Achmad Mahardi - http://mahardi.heroku.com
-! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! vim: :nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
 ! ----------------------------------------------------------------------------
 
 !*customization:          -color
-!URxvt*termName:          rxvt-unicode-256color
+URxvt*termName:          rxvt-256color
 !URxvt*font:             -*-lime-*-*-*-*-10-*-*-*-*-*-*-*
 !URxvt*boldFont:         -*-lime-*-*-*-*-10-*-*-*-*-*-*-*
-!URxvt*font:              xft:Pragmata:pixelsize=9:antialias=false
-!URxvt*boldFont:          xft:Pragmata:pixelsize=9:antialias=false
-URxvt*font:              xft:Droid Sans Mono:pixelsize=9:antialias=false
-URxvt*boldFont:          xft:Droid Sans Mono:pixelsize=9:antialias=false
+URxvt*font:              xft:Pragmata:pixelsize=9:antialias=false
+URxvt*boldFont:          xft:Pragmata:pixelsize=9:antialias=false
+!URxvt*font:              xft:Droid Sans Mono:pixelsize=9:antialias=false
+!URxvt*boldFont:          xft:Droid Sans Mono:pixelsize=9:antialias=false
 URxvt.scrollBar:         false
 URxvt.imLocale:          en_US.UTF-8
 URxvt.saveLines:         512
@@ -35,14 +35,14 @@ URxvt.colorIT:           #bbbbbb
 URxvt.colorUL:           #999999
 URxvt.underlineColor:    #999999
 URxvt.borderless:        true
-URxvt.borderColor:       #1F1F1F
+URxvt.borderColor:       #151515
 
 !#include "/home/fake/.colors/choco.colors"
-#include "/home/kitty/.colors/dotshare.colors"
+#include "/home/kitty/.colors/dark.colors"
 #include "/home/kitty/.colors/urxvt.fix"
 
-!*background: 			 #151515
-!*foreground: 			 #f7f8f2
+*background: 			 #151515
+*foreground: 			 #f7f8f2
 
 alsamixer*scrollBar:  false
 

@@ -33,9 +33,9 @@ session = /home/kitty/.session/
 # Watch a directory for new torrents, load them but DO NOT start them (annoying!).
 # Also erase the torrent file when a torrent is inserted (swallow torrent files).
 # This also removes the tie (die ties die die die).
-schedule = watch_directory,5,5,"load_start=home/kitty/Downloads/*.torrent"
-schedule = untied_directory,5,5,stop_untied=
-schedule = tied_directory,5,5,start_tied=
+schedule = watch_directory,10,10,load_start=~/Downloads/*.torrent
+schedule = tied_directory,10,10,start_tied=
+schedule = untied_directory,10,10,close_untied=
 
 # Schedule download rates, maximum between 2AM-10AM (when everybody is asleep :))
 #schedule = night_throttle,02:00:00,24:00:00,download_rate=0

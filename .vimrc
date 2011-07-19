@@ -292,7 +292,7 @@ set nocompatible               " be iMproved
 " }}}
 " Invisibles {{{
   set listchars=tab:>\ ,eol:<
-  set list
+  "set list
   nmap <silent> <F5> :set list!<CR>
 " }}}
 " Folds {{{
