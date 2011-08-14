@@ -8,6 +8,8 @@ if (xrandr | grep "VGA1 connected" > /dev/null); then
   ck-launch-session /home/kitty/dots/sawfish.sh
 else
   ck-launch-session /home/kitty/dots/subtle.sh
+  #ck-launch-session /home/kitty/dots/sawfish.sh
+  #ck-launch-session /home/kitty/dots/compiz.sh
 fi
 
 #Start WMFS

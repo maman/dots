@@ -5,6 +5,7 @@ xrdb -merge ~/.Xdefaults &
 
 #set X font path
 xset +fp /home/kitty/.fonts &
+xset +fp /usr/share/fonts/jmk &
 xset fp rehash &
 
 #network
@@ -39,8 +40,9 @@ nitrogen --restore &
 /usr/lib/notification-daemon-1.0/notification-daemon &
 
 #taskbar and system notifications yay
-#tint2 &
-#conky -c ~/git/conkyconf/conkyrc --display=:0 &
+tint2 &
+#bmpanel2 &
+conky -c ~/git/conkyconf/conkyrc --display=:0 &
 
 #exec Compiz
 sawfish

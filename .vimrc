@@ -159,8 +159,10 @@ set nocompatible               " be iMproved
       setl statusline+=\ Insert\ ◥
     elseif a:mode == 'r'
       setl statusline+=\ Ersetzen\ ◥
+    elseif a:mode == 'v'
+      setl statusline+=\ Select\ ◥
     elseif a:mode == 'normal'
-      setl statusline+=\ \ ◥
+      setl statusline+=\ Ready\ ◥
     endif
     call SetStatus()
     call SetRightStatus()

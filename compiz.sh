@@ -5,6 +5,7 @@ xrdb -merge ~/.Xdefaults &
 
 #set X font path
 xset +fp /home/kitty/.fonts &
+xset +fp /usr/share/fonts/jmk &
 xset fp rehash &
 
 #network
@@ -29,11 +30,21 @@ fi
 #enable two-finger scrolling
 sh /home/kitty/dots/touchpad.sh &
 
+#enable notification daemon
+pidof notification-daemon >& /dev/null
+if [ $? -ne 0 ]; then
+  /usr/lib/notification-daemon-1.0/notification-daemon &
+fi
+
+#coooonkies
+conky -c /home/kitty/git/conkyconf/conkyrc2 &
+conky -c /home/kitty/git/conkyconf/conkyrc3 &
+
 #wallpaper - compiz wallpaper plugin have issues with dualmonitor
 nitrogen --restore &
 
 #exec bmpanel2
-bmpanel2 --theme=amana &
+#bmpanel2 --theme=amana &
 
 #exec Compiz
 compiz ccp
