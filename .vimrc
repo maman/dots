@@ -17,24 +17,14 @@ set nocompatible               " be iMproved
   Bundle 'tpope/vim-fugitive'
   Bundle 'tpope/vim-rails'
   Bundle 'tpope/vim-haml'
-  Bundle 'tpope/vim-endwise'
-  Bundle 'tpope/vim-surround'
-  Bundle 'tpope/vim-ragtag'
   Bundle 'tpope/vim-markdown'
-  Bundle 'tpope/vim-unimpaired'
   Bundle 'scrooloose/nerdtree'
   Bundle 'msanders/snipmate.vim'
-  Bundle 'ervandew/supertab'
   Bundle 'tomtom/tlib_vim'
   Bundle 'tomtom/tcomment_vim'
   Bundle 'tomtom/tselectbuffer_vim'
   Bundle 'tsaleh/vim-matchit'
-  Bundle 'vim-scripts/taglist.vim'
-  Bundle 'Townk/vim-autoclose'
-  " Bundle 'fholgado/minibufexpl.vim'
-  Bundle 'shemerey/vim-project'
-  " Bundle 'Twinside/vim-codeoverview'
-
+ 
   " vim-scripts repos
 
   " non github repos

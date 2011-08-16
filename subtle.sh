@@ -37,8 +37,16 @@ if [ $? -ne 0 ]; then
 fi
 
 #coooonkies
-conky -c /home/kitty/git/conkyconf/conkyrc2 &
-conky -c /home/kitty/git/conkyconf/conkyrc3 &
+#conky -c /home/kitty/git/conkyconf/conkyrc2 &
+#conky -c /home/kitty/git/conkyconf/conkyrc3 &
+
+#baars
+(
+sleep 5
+left &
+tail -f /home/kitty/.config/dzen/pager | dzen2 -ta l -bg '#151515' -x 0 -y 0 -h 17 -w 400 &
+bar
+)&
 
 #wallpaper
 nitrogen --restore &

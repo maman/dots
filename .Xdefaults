@@ -39,11 +39,11 @@ URxvt.underlineColor:    #999999
 URxvt.borderless:        true
 URxvt.borderColor:       #151515
 
-#include "/home/kitty/.colors/getfresh.colors"
+#include "/home/kitty/.colors/dark.colors"
 #include "/home/kitty/.colors/urxvt.fix"
 
 *background: 			 #151515
-!*foreground: 			 #f7f8f2
+*foreground: 			 #f7f8f2
 
 alsamixer*scrollBar:  false
 
