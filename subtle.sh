@@ -27,8 +27,11 @@ if [ $? -ne 0 ]; then
   mpdscribble &
 fi
 
+#enable touchpad
+xinput set-button-map 11 1 2 3 5 4
+
 #enable two-finger scrolling
-sh /home/kitty/dots/touchpad.sh &
+#sh /home/kitty/dots/touchpad.sh &
 
 #enable notification daemon
 pidof notification-daemon >& /dev/null
