@@ -27,11 +27,8 @@ if [ $? -ne 0 ]; then
   mpdscribble &
 fi
 
-#enable two-finger scrolling
-sh /home/kitty/dots/touchpad.sh &
-
-#enable compositing
-#xcompmgr -c -r 35 -t -15 -l -55 -o .60 &
+#enable touchpad enhancements
+xinput set-button-map 11 1 2 3 5 4
 
 #wallpaper
 nitrogen --restore &
@@ -40,9 +37,8 @@ nitrogen --restore &
 /usr/lib/notification-daemon-1.0/notification-daemon &
 
 #taskbar and system notifications yay
-tint2 &
-#bmpanel2 &
-conky -c ~/git/conkyconf/conkyrc --display=:0 &
+bmpanel2 &
+conky -c ~/git/conkyconf/conkyrc4 &
 
 #exec Compiz
 sawfish

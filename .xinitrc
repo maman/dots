@@ -7,8 +7,8 @@ if (xrandr | grep "VGA1 connected" > /dev/null); then
   xrandr --output VGA1 --right-of LVDS1 --mode 1024x768 --pos 1280x0
   ck-launch-session /home/kitty/dots/sawfish.sh
 else
-  ck-launch-session /home/kitty/dots/subtle.sh
-  #ck-launch-session /home/kitty/dots/sawfish.sh
+  #ck-launch-session /home/kitty/dots/subtle.sh
+  ck-launch-session /home/kitty/dots/sawfish.sh
   #ck-launch-session /home/kitty/dots/compiz.sh
 fi
 
