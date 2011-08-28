@@ -39,6 +39,7 @@ nitrogen --restore &
 #taskbar and system notifications yay
 bmpanel2 &
 conky -c ~/git/conkyconf/conkyrc4 &
+conky -c ~/git/conkyconf/conkyrc5 &
 
 #exec Compiz
 sawfish
