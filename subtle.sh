@@ -30,25 +30,22 @@ fi
 #enable touchpad
 xinput set-button-map 11 1 2 3 5 4
 
-#enable two-finger scrolling
-#sh /home/kitty/dots/touchpad.sh &
+#remap Caps Lock to Escape
+xmodmap ~/.Xmodmap &
 
 #enable notification daemon
-pidof notification-daemon >& /dev/null
+pidof twmnd >& /dev/null
 if [ $? -ne 0 ]; then
-  /usr/lib/notification-daemon-1.0/notification-daemon &
+#  /usr/lib/notification-daemon-1.0/notification-daemon &
+  twmnd &
 fi
 
-#coooonkies
-#conky -c /home/kitty/git/conkyconf/conkyrc2 &
-#conky -c /home/kitty/git/conkyconf/conkyrc3 &
-
-#baars
+#dualmonitor-setup
 (
-sleep 5
-left &
-tail -f /home/kitty/.config/dzen/pager | dzen2 -ta l -bg '#151515' -x 0 -y 0 -h 17 -w 400 &
-bar
+  sleep 5
+  left &
+  tail -f /home/kitty/.config/dzen/pager | dzen2 -ta l -bg '#151515' -x 0 -y 0 -h 17 -w 400 &
+  bar
 )&
 
 #wallpaper

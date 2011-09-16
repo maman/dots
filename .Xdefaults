@@ -12,8 +12,8 @@ URxvt*termName:          rxvt-256color
 !URxvt*boldFont:         -*-neep-medium-*-*-*-10-*-*-*-*-*-*-*
 !URxvt*font:              xft:Pragmata:pixelsize=9:antialias=false
 !URxvt*boldFont:          xft:Pragmata:pixelsize=9:antialias=false
-!URxvt*font:              xft:Inconsolata:pixelsize=11:antialias=false
-!URxvt*boldFont:          xft:Inconsolata:pixelsize=11:antialias=false
+!URxvt*font:              xft:Droid Sans Mono:pixelsize=11:antialias=false
+!URxvt*boldFont:          xft:Droid Sans Mono:pixelsize=11:antialias=false
 URxvt*font:              xft:Meslo LG S:pixelsize=9:antialias=false
 URxvt*boldFont:          xft:Meslo LG S:pixelsize=9:antialias=false
 URxvt.scrollBar:         false
