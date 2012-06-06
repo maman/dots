@@ -1,4 +1,4 @@
-"hg5827 (created: 2011/02/15 00:00:06)
+"1.0rc2pre-hg6756-default
 
 loadplugins '\.(js|penta)$'
 group user
@@ -12,7 +12,7 @@ highlight Normal background: #050505; color: #888;
 highlight Preview color: #444;
 highlight StatusLineNormal background: #151515;
 highlight Title background: #050505; color: #bdf271;
+set defsearch=ddg
+set guioptions=bs
 
 " vim: set ft=pentadactyl:
-
-

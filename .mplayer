@@ -4,13 +4,14 @@
 # GENERAL
 #=-=-=-=-=-
 
-#really-quiet=1 # Little Console output
+really-quiet=1 # Little Console output
 
 #=-=-=-=-=-
 # VIDEO
 #=-=-=-=-=-
 
-vo=xv # Video out
+vo=vdpau # Video out
+vc=ffmpeg12vdpau,ffwmv3vdpau,ffvclvdpau,ffh264vdpau,ffodivxvdpau, # NVIDIA's vdpau-enabled codecs
 zoom=1 # Allow software scaling
 double=yes # Double buffering
 
@@ -21,7 +22,7 @@ hardframedrop=0
 # SUBTITLES
 #=-=-=-=-=-
 
-font=/home/fake/.fonts/segoeui.ttf
+font=/home/derp/.fonts/segoeui.ttf
 subfont-encoding=unicode # set unicode...
 unicode=yes # ...again...
 utf8=yes # ...and again
@@ -34,7 +35,7 @@ subfont-text-scale=3.7 # truetype font scaling
 subfont-blur=1 # Slight blur
 
 #This sets the postprocessing into overdrive using all possible spare cpu cycles to make the movie look better
-#autoq=100
+autoq=100
 #vf=pp=de,hqdn3d
 
 subpos=95 # By default subtitles are too low
@@ -44,5 +45,5 @@ slang=en,eng # Languages
 
 sub-fuzziness=1 # Load all subs containing movie name
 
-cache=8192 # Set mplayer cache for smoother HD playback
+cache=16892 # Set mplayer cache for smoother HD playback
 cache-min=20 # Set minimum cache size

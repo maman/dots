@@ -2,8 +2,8 @@
 
 #general MPD options
 mpd_host = "localhost"
-#mpd_port = "3412"
-mpd_music_dir = "/home/kitty/Music"
+mpd_port = "3412"
+mpd_music_dir = "/home/derp/music"
 mpd_crossfade_time = "5"
 
 # Visualizer
@@ -16,7 +16,8 @@ playlist_disable_highlight_delay = "1"
 
 #song_list_format = "$8{%A}|{%a}$9 $1|$9 $5{%b}$9 $1|$9 $2{%t}$9"
 #song_list_format = "$8{%A}|{%a}$9 $5{%b}$9 $2{%t}$9"
-song_list_format = "$1$9{%l}$1$9 $1»$9 $2{%a}$9 $1»$9 $5{%b}$9 $R$1$9{%t}$1$9"
+song_list_format = "$1$9{%l}$1$9 $1»$9 $2{%a}$9 $1»$9 $5{%b}$9 $R$1$9{%t}$1$9" #crshd
+#song_list_format = "{$5%a$9  $7▕ $9 }|{$8%f$9} {$2%l$9  $7▕ $9 } $8%t$9" #droog
 song_columns_list_format = "(3f)[black]{n} (40)[default]{t|f} (25)[red]{a} (30)[blue]{b} (4f)[black]{l}"
 song_library_format = "{%n > }{%t}|{%f}"
 song_status_format = "(3f)[black]{n} (40)[default]{t|f} (25)[red]{a} (30)[blue]{b} (4f)[black]{l}"
