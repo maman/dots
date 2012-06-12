@@ -83,8 +83,8 @@ log_level                       "default"
 #
 audio_output {
         type                    "alsa"
-        name                    "equal"
-        device                  "plug:plugequal"
+        name                    "output"
+#        device                  "plug:plugequal"
         mixer_device            "default"
         format                  "44100:16:1"
         mixer_control           "Master"

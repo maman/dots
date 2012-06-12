@@ -21,19 +21,19 @@ upload_rate = 5
 # ----------------------------------------------------------------------------------
 
 # Default directory to save the downloaded files.
-directory = /home/kitty/torrentdl/
+directory = /home/derp/torrent/
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
 # relative path?
-session = /home/kitty/.session/
+session = /home/derp/.session/
 
 # ----------------------------------------------------------------------------------
 
 # Watch a directory for new torrents, load them but DO NOT start them (annoying!).
 # Also erase the torrent file when a torrent is inserted (swallow torrent files).
 # This also removes the tie (die ties die die die).
-schedule = watch_directory,10,10,load_start=~/Downloads/*.torrent
+schedule = watch_directory,10,10,load_start=~/download/*.torrent
 schedule = tied_directory,10,10,start_tied=
 schedule = untied_directory,10,10,close_untied=
 

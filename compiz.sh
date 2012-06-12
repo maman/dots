@@ -14,6 +14,7 @@ xset fp rehash &
 
 #network
 #wicd-client &
+stalonetray &
 nm-applet &
 dropboxd &
 
@@ -65,9 +66,6 @@ xinput set-button-map 12 1 2 3 5 4
 
 #wallpaper - compiz wallpaper plugin have issues with dualmonitor
 nitrogen --restore &
-
-#exec stalonetray
-stalonetray &
 
 #exec AWN
 avant-window-navigator &

@@ -24,12 +24,15 @@ Bundle 'tyru/current-func-info.vim'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'kien/ctrlp.vim'
+Bundle 'mattn/webapi-vim'
 
 " Vim-Script Repos
 Bundle 'vim-scripts/Auto-Pairs'
 Bundle 'vim-scripts/Figlet.vim'
 Bundle 'vim-scripts/Solarized'
 Bundle 'vim-scripts/shell.vim--Odding'
+Bundle 'vim-scripts/SingleCompile'
+Bundle 'vim-scripts/Gist.vim'
 
 " non Github Repos
 Bundle "git://github.com/MarcWeber/vim-addon-mw-utils.git"
