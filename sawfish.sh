@@ -9,8 +9,10 @@ xrdb -merge ~/.Xdefaults &
 #set X font path
 xset +fp /home/derp/.fonts &
 xset +fp /usr/share/fonts/X11/jmk &
-#xset +fp /home/derp/.fonts-2 &
 xset fp rehash &
+
+#pause for 10 sec, while wait for rehash to complete.
+sleep 10 &
 
 #network
 #wicd-client &
@@ -19,6 +21,7 @@ nm-applet &
 tidybattery &
 volumeicon &
 dropboxd &
+pidgin &
 
 #urxvt daemon
 urxvtd &

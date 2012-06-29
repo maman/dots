@@ -6,13 +6,17 @@ highlight CompGroup background: #050505; color: #888;
 highlight CompItem[selected] background: #ff8939; color: #151515;
 highlight CompTitle background: #151515; color: #bdf271;
 highlight CompTitleSep display: none;
+highlight Hint text-transform: uppercase; font-family : "Helvetica Neue", "Helvetica", "Arial", "Sans"; font-weight: bold; font-size: 11px; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6); color: #302505; padding: 1px 3px 0px 3px; background: -moz-linear-gradient(top, #FFF785, #FFC542); border: 1px #C38A22 solid; -moz-border-radius: 3px; -moz-box-shadow: 0 3px 7px 0px rgba(0,0,0,0.3);
+highlight HintActive background-color: inherit !important
+highlight HintElem background-color: inherit !important
+highlight HintImage opacity: .5 !important;
 highlight MoreMsg color: #050505; background: #222;
 highlight NonText background: #050505; color: #888;
 highlight Normal background: #050505; color: #888;
 highlight Preview color: #444;
-highlight StatusLineNormal background: #151515;
+highlight -link=FontFixed StatusLine -moz-appearance: none !important; font-weight: bold; background: transparent !important; border: 0px !important; padding-right: 0px !important; min-height: 18px !important; text-shadow: none !important; font-family: Neep !important; font-size: 7pt !important;
+highlight StatusLineNormal background: #151515; font-family: Neep !important; font-size: 7pt;
 highlight Title background: #050505; color: #bdf271;
-set defsearch=ddg
 set guioptions=bs
 
 " vim: set ft=pentadactyl:

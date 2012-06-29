@@ -6,10 +6,10 @@
 
 *customization:          -color
 URxvt*termName:          rxvt-256color
-!URxvt*font:              -*-neep-medium-*-*-*-10-*-*-*-*-*-*-*
-!URxvt*boldFont:          -*-neep-medium-*-*-*-10-*-*-*-*-*-*-*
-URxvt.font:              xft:Pragmata for Powerline:pixelsize=9:antialias=false
-URxvt.boldFont:          xft:Pragmata for Powerline:pixelsize=9:antialias=false
+URxvt*font:              -*-neep-medium-*-*-*-10-*-*-*-*-*-*-*
+URxvt*boldFont:          -*-neep-medium-*-*-*-10-*-*-*-*-*-*-*
+!URxvt.font:              xft:Pragmata for Powerline:pixelsize=9:antialias=false
+!URxvt.boldFont:          xft:Pragmata for Powerline:pixelsize=9:antialias=false
 URxvt.scrollBar:         false
 URxvt.imLocale:          en_US.UTF-8
 URxvt.saveLines:         512
@@ -35,7 +35,7 @@ URxvt.underlineColor:    #999999
 URxvt.borderless:        true
 URxvt.borderColor:       #151515
 
-#include                 "/home/derp/.colors/dotshare.colors"
+#include                 "/home/derp/.colors/railscasts.colors"
 !#include                "/home/derp/.colors/urxvt.fix"
 
 URxvt.depth:             32

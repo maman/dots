@@ -1,0 +1,7 @@
+[beets]
+directory: ~/music
+library: ~/.config/beets/library.blb
+plugins: embedart
+
+[embedart]
+autoembed: yes

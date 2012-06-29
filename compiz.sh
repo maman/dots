@@ -12,11 +12,15 @@ xset +fp /usr/share/fonts/X11/jmk &
 #xset +fp /home/derp/.fonts-2 &
 xset fp rehash &
 
+#pause after 10 sec, while waiting rehash to complete
+sleep 10 &
+
 #network
 #wicd-client &
 stalonetray &
 nm-applet &
 dropboxd &
+pidgin &
 
 #urxvt daemon
 urxvtd &
@@ -60,15 +64,12 @@ xinput set-button-map 12 1 2 3 5 4
 /home/derp/.config/dzen/time &
 /home/derp/.config/dzen/mpd &
 
-#coooonkies
-#conky -c /home/kitty/git/conkyconf/conkyrc2 &
-#conky -c /home/kitty/git/conkyconf/conkyrc3 &
-
 #wallpaper - compiz wallpaper plugin have issues with dualmonitor
 nitrogen --restore &
 
 #exec AWN
 avant-window-navigator &
+#conky -c ~/.config/conky/conkyrc-utils &
 
 #exec Compiz
 compiz ccp
