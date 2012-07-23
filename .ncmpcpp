@@ -3,7 +3,7 @@
 #general MPD options
 mpd_host = "localhost"
 mpd_port = "3412"
-mpd_music_dir = "/home/derp/music"
+mpd_music_dir = "/home/derp/Music"
 mpd_crossfade_time = "5"
 
 # Visualizer

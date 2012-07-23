@@ -51,6 +51,9 @@ compton -o 0.6 -r 20 -l -30 -t -10 -cCGb &
 #idle monitor
 #xautolock -time 30 -locker "sudo pm-suspend" &
 
+#monitor auto level
+calised &
+
 #wallpaper - compiz wallpaper plugin have issues with dualmonitor
 nitrogen --restore &
 

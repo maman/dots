@@ -20,7 +20,7 @@ sleep 10 &
 stalonetray &
 nm-applet &
 dropboxd &
-pidgin &
+#pidgin &
 
 #urxvt daemon
 urxvtd &
@@ -61,8 +61,15 @@ xinput set-button-map 12 1 2 3 5 4
 #fi
 
 #dzens
-/home/derp/.config/dzen/time &
-/home/derp/.config/dzen/mpd &
+#/home/derp/.config/dzen/time &
+#/home/derp/.config/dzen/mpd &
+
+#panel
+wingpanel &
+slingshot &
+
+#monitor auto level
+calised &
 
 #wallpaper - compiz wallpaper plugin have issues with dualmonitor
 nitrogen --restore &

@@ -5,7 +5,7 @@
 # You can put symlinks in here, if you like. Make sure that
 # the user that mpd runs as (see the 'user' config parameter)
 # can read the files in this directory.
-music_directory		"/home/derp/music"
+music_directory		"/home/derp/Music"
 playlist_directory	"/home/derp/.mpd/playlists"
 db_file			"/home/derp/.mpd/mpd.db"
 log_file		"/home/derp/.mpd/mpd.log"

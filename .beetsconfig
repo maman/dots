@@ -1,5 +1,5 @@
 [beets]
-directory: ~/music
+directory: ~/Music
 library: ~/.config/beets/library.blb
 plugins: embedart
 

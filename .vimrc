@@ -24,15 +24,13 @@ Bundle 'tyru/current-func-info.vim'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'kien/ctrlp.vim'
-Bundle 'mattn/webapi-vim'
+Bundle 'altercation/vim-colors-solarized'
 
 " Vim-Script Repos
 Bundle 'vim-scripts/Auto-Pairs'
 Bundle 'vim-scripts/Figlet.vim'
-Bundle 'vim-scripts/Solarized'
 Bundle 'vim-scripts/shell.vim--Odding'
 Bundle 'vim-scripts/SingleCompile'
-Bundle 'vim-scripts/Gist.vim'
 
 " non Github Repos
 Bundle "git://github.com/MarcWeber/vim-addon-mw-utils.git"
@@ -55,15 +53,16 @@ if has('gui_running')
     set guioptions-=L               " No Scrollbar left when split
     set guioptions-=r               " No Scrollbar right
     set guioptions-=r               " No Scrollbar right when split
-    set gfn=Menlo\ for\ Powerline\ 8
+    set gfn=Menlo\ for\ Powerline\ 10
     set lines=50                    " Height
     set columns=155                  " Width
-    "set background=dark
-    colorscheme getfresh
+    set background=dark
+    colorscheme solarized
     "colorscheme solarized
 else
+	"set t_Co=16
+  colorscheme xdefaults
   set background=dark
-	colorscheme xdefaults
 endif
 " VIM Powerline opts
 let g:Powerline_symbols = 'fancy'
